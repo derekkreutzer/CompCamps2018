@@ -15,6 +15,9 @@ li{
   font-size: 20px;
 }
 body{
-  background:#37DBFF;
+  background-attachment: scroll;
+  background-image: url(../images/seth-macey-723785-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Press Start 2P', cursive;
 }
