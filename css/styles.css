@@ -4,7 +4,10 @@ display: block;
 margin: 0 auto;
 }
 h1{
-  color: red;
+  color: #007A21;
+}
+h3{
+  color: #007A21;
 }
 li{
   display: inline;
@@ -12,5 +15,6 @@ li{
   font-size: 20px;
 }
 body{
+  background:#37DBFF;
   font-family: 'Press Start 2P', cursive;
 }
