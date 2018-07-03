@@ -51,10 +51,9 @@ def attack(self):
 while len(theGaurd) >0:
 
     while len(mits) > 0:
-    mit = mits.pop()
-    print("A wild {} appears!".format(mit.name))
-    while mit.isAlive():
-        print("You have {} health.".format(health))
+        print("A wild {} appears!".format(the gaurd.name))
+        while mit.isAlive():
+            print("You have {} health.".format(health))
         print("Do you want to fight or flee?")
         if input("Fight / Flee > ").lower() == "fight":
             damage = mit.attack()
