@@ -1,4 +1,20 @@
-  def attack(self):
+import random
+import sys
+name=input("who dares challenge the mits")
+
+health= 40
+score= 0
+class MIT:
+    """the MITS. ."""
+    def __init__(self, name):
+        self.name = name
+        self.health=10
+    def isAlive(self):
+        return self.health >0
+    @property
+    def damage(self):
+        return random.randint(1,7)
+    def attack(self):
         damage = random.randint(0, 10)
         self.health -= damage
         return damage
